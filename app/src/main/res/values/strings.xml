@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Household</string>
+    <string name="chores_tab_title">Chores</string>
+    <string name="home_tab_title">Home</string>
+</resources>
