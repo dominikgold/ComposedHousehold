@@ -38,6 +38,7 @@ fun ChoresScreen(onTabSelected: (BottomNavigationTab) -> Unit) {
 fun ChoresContent() {
     val viewModel: ChoreListViewModel = viewModel()
     val choreListState by viewModel.state.collectAsState()
+
     if (choreListState.chores.isNotEmpty()) {
         ChoreList(choreListState.chores, isLoadingMore = choreListState.isLoading)
     } else if (choreListState.isLoading) {

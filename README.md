@@ -12,3 +12,4 @@ Example app for managing chores and other things around the household written wi
 - #TODO: more advanced theming
 - #TODO: improved functionality
 - #TODO: UI tests
+- #TODO: Modularization
