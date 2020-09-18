@@ -11,4 +11,4 @@ build
 .cxx
 local.properties
 
-!.idea/codeStyleSettings.xml
+!.idea/codeStyles/*
